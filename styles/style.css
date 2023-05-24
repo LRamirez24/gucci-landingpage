@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #EDEDED;
+    font-family: 'Satoshi', sans-serif;
+    overflow-x: hidden;
+  }
+
+    /* Header Section */
+  
+  .new-header nav {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 99;
+    width: calc(100% - 40px);
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .new-header nav .logo {
+    max-width: 200px;
+    max-height: 100px;
+  }
+  
+  .new-header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .new-header nav li {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .new-header nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+      /* Hero Section */
+
+  .big-image {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/gucci2.png");
+  }
+  
+  .overlay {
+    padding: 200px 80px;
+  }
+  
+  .overlay h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 90%;
+    color: #FFFFFF;
+    font-weight: 400;
+  }
+  
+  .overlay .contact {
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .overlay .contact:hover {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 32px;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .overlay p {
+    max-width: 40%;
+    font-size: 16px;
+    margin-top: 80px;
+    color: #FFFFFF;
+    line-height: 150%;
+  }
+  
+  .contact-section {
+    margin-top: 48px;
+  }
+
+      /*  Our Collection Section */
+  
+  .collection {
+    margin-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .collection h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 90%;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .collection .underline {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+  }
+  
+  .collection .bags-sections {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .collection .bags-sections .price {
+    margin-top: 8px;
+  }
+  
+  .collection .bags-sections .bag-section-image1 {
+    text-align: center;
+    max-width: 28%;
+  }
+  
+  .collection .bags-sections .bag-section-image1 img {
+    padding-right: 40px;
+    max-width: 400px;
+    margin-bottom: 24px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 202px;
+  }
+  
+  .collection .bags-sections .bag-section-image2 {
+    text-align: center;
+    max-width: 28%;
+  }
+  
+  .collection .bags-sections .bag-section-image2 img {
+    padding-right: 40px;
+    max-width: 400px;
+    margin-bottom: 24px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 202px;
+  }
+  
+  .collection .bags-sections .bag-section-image3 {
+    text-align: center;
+    max-width: 28%;
+  }
+  
+  .collection .bags-sections .bag-section-image3 img {
+    padding-right: 40px;
+    max-width: 400px;
+    margin-bottom: 24px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 202px;
+  }
+
+      /* Discover Section */
+  
+  .discover-section {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    margin-top: 150px;
+    padding-bottom: 150px;
+  }
+  
+  .discover-section .discover-half1 {
+    margin-right: 100px;
+  }
+  
+  .discover-section .discover-half1 .discover-title {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90%;
+    margin-bottom: 24px;
+  }
+  
+  .discover-section .discover-half2 {
+    width: 40%;
+  }
+  
+  .discover-section .discover-half2 p {
+    padding-bottom: 24px;
+  }
+  
+  .discover-section .discover-half2 .shop-now {
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .discover-section .discover-half2 .shop-now:hover {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 32px;
+    transition: 0.4s ease-in-out;
+    color: #FFFFFF;
+  }
+  
+  .shop-button {
+    margin-top: 40px;
+  }
+
+      /* Final Section */
+  
+  .final-section {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .final-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
